@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="styles.css" type="text/css">
+
+		<title>Coding Challenge</title>
+	</head>
+	<body>
+		<!-- Here is the code for the left table which holds the name of
+			 the users -->
+		<div style="float:left;margin-right:10px;overflow-x:auto" class="usersTable">
+			<table class="table table-striped">
+				<thead>
+					<tr class="bg-info">
+						<th>Name</th>
+					</tr>
+				</thead>
+
+				<!-- This tbody will be populated with all of the names
+					 of the users once we run through our 'forEach' loop
+					 in the 'script.js' file -->
+				<tbody id="data">
+
+				</tbody>
+			</table>
+		</div>
+
+		<!-- Here is the code for the right table which holds the title and
+		     post description for each post -->
+		<div style="float:left;overflow-x:auto" class="postsTable">
+			<table class="table table-striped">
+				<thead>
+					<tr class="bg-info">
+						<th>Title</th>
+						<th>Post</th>
+					</tr>
+				</thead>
+
+				<!-- This will be populated once we run through the 'forEach' loop
+					 for the posts data (same process as above) -->
+				<tbody id="data1">
+
+				</tbody>
+			</table>
+		</div>
+		<script src="script.js">
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+th { 
+	color: #fff;
+}
+	
+button {
+	color: #fff;
+	width: 100%;
+}
+
+.usersTable { 
+	height: 100%;
+	width: 10%;
+	min-width: 10%;
+}
+
+.postsTable { 
+	height: 100%; 
+	width: 88%; 
+	overflow: hidden;
+	white-space: nowrap;
+}
